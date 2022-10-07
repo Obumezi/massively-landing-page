@@ -1,0 +1,43 @@
+body {
+    background-image: url(./assets/images/bg.jpg);
+    color: white;
+
+}
+
+
+.text-line:before {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: red;
+
+}
+
+.text-line {
+    position: relative;
+}
+
+.text-line:after {
+    content: " ";
+    height: 2px;
+    width: 130px;
+    background: red;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+
+.second-container-background {
+    background: white
+}
+
+
+#navbar-set {
+    color: white;
+}
