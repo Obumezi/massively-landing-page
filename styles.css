@@ -1,9 +1,28 @@
 body {
     background-image: url(./assets/images/bg.jpg);
     color: white;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+.first-header {
+
+    font-size: 80px;
+    font-weight: 700;
+    font-style: normal;
 
 }
 
+.second-header {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.second-header-text {
+    font-size: 16px;
+    font-style: normal;
+}
 
 .text-line:before {
     content: " ";
@@ -42,6 +61,20 @@ body {
     color: white;
 }
 
-.image-col{
-	width: 350px
+.image-col {
+    width: 350px
 }
+
+
+.name-grid {
+
+    display: block;
+    margin: 0 auto;
+
+}
+
+.grid-date {}
+
+.grid-main-text {}
+
+.grid-parpagraph {}
