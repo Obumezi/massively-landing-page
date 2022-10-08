@@ -27,12 +27,12 @@ body {
 .text-line:before {
     content: " ";
     display: block;
-    height: 2px;
-    width: 130px;
-    position: absolute;
+    height: 1px;
+    width: 230px;
+  position: absolute;
     top: 50%;
     left: 0;
-    background: red;
+    background: grey;
 
 }
 
@@ -42,9 +42,9 @@ body {
 
 .text-line:after {
     content: " ";
-    height: 2px;
-    width: 130px;
-    background: red;
+    height: 1px;
+    width: 230px;
+    background: grey;
     display: block;
     position: absolute;
     top: 50%;
