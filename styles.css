@@ -62,7 +62,7 @@ body {
 }
 
 .image-col {
-    width: 350px
+    width: 400px
 }
 
 
@@ -70,11 +70,29 @@ body {
 
     display: block;
     margin: 0 auto;
+    
 
 }
 
 .grid-date {}
 
-.grid-main-text {}
+.grid-main-text {
+    font-weight: bold;
+}
 
-.grid-parpagraph {}
+.grid-paragraph {
+    line-height: 1.9;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.page-link{
+    color: black;
+    font-weight: bold;
+}
+
+.page-link:hover{
+    color: wheat;
+}
