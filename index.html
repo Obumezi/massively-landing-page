@@ -14,6 +14,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="form.css">
 
 
 
@@ -231,7 +232,7 @@
         </div>
 
         <nav aria-label="Page navigation example">
-          <ul class="pagination justify-content-center">
+          <ul class="pagination justify-content-center mt-4">
             <li class="page-item"><a class="page-link" href="#">Previous</a></li>
             <li class="page-item"><a class="page-link" href="#">1</a></li>
             <li class="page-item"><a class="page-link" href="#">2</a></li>
@@ -243,8 +244,37 @@
             <li class="page-item"><a class="page-link" href="#">Next</a></li>
           </ul>
         </nav>
+
+
+        <!-- Form start -->
+        <section id="contact-form">
+
+          <form id="contact" name="contact" accept-charset="utf-8">
+            <label><span>Name</span><input name="name" type="text" placeholder="Name" style="width: 360px;" /></label>
+            <label><span>Email</span><input name="email" type="email" placeholder="Email" style="width: 360px;" /></label>
+            <label><span>Message</span><textarea name="message" placeholder="Message" style="width: 360px;"></textarea></label>
+            <input name="submit" type="submit" value="Send Message" style="right: 106px;" />
+          </form>
+          <aside>
+            <p>Just hit Send on an empty form to see the invalid input animation</p>
+            <p>Fill in the form fields to see the success animation (no real validation, any random input will do)</p>
+          </aside>
+        </section>
+
+
+
+
+
+
+
+        <!-- Form end -->
+
+
+
       </div>
       <!-- second container end -->
+
+
     </div>
   </div>
 
